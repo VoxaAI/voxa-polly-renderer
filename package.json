@@ -1,0 +1,38 @@
+{
+  "name": "voxa-polly-renderer",
+  "version": "0.0.1",
+  "description": "A renderer for Voxa that uses Polly for voice",
+  "main": "index.js",
+  "repository": "git@github.com:mediarain/voxa-polly-renderer.git",
+  "author": "Rain <npm@rain.agency>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --recursive tests",
+    "watch": "node node_modules/gulp/bin/gulp.js watch",
+    "test-ci": "JUNIT_REPORT_PATH=junit.xml istanbul cover _mocha -- --recursive --colors --reporter mocha-jenkins-reporter tests",
+    "cobertura": "istanbul report cobertura --root coverage",
+    "lint": "eslint  src/ tests/ index.js"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "eslint": "^4.0.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.2",
+    "mocha-jenkins-reporter": "^0.3.8"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.74.0",
+    "bluebird": "^3.5.0",
+    "child-process-promise": "^2.2.1",
+    "debug": "^2.6.8",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.3.0",
+    "fs-extra": "^3.0.1",
+    "stream-to-array": "^2.3.0",
+    "tmp-promise": "^1.0.3",
+    "util": "^0.10.3"
+  },
+  "peerDependencies": {
+    "voxa": "^2.1.4"
+  }
+}
