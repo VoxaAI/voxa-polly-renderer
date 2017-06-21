@@ -5,3 +5,6 @@ node_js:
 script: ./run-ci.sh
 notifications:
   irc: "chat.freenode.net#voxa"
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y sox
