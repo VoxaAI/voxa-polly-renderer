@@ -14,8 +14,8 @@ module.exports = class Polly extends DefaultRenderer {
   constructor(config) {
     super(config);
 
-    this.s3 = new AWS.S3({ region: 'us-east-1' });
-    this.polly = new AWS.Polly({ region: 'us-east-1' });
+    this.s3 = new AWS.S3();
+    this.polly = new AWS.Polly();
   }
 
   renderMessage(msg, alexaEvent) {
