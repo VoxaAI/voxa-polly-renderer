@@ -30,9 +30,8 @@
     "fs-extra": "^3.0.1",
     "stream-to-array": "^2.3.0",
     "tmp-promise": "^1.0.3",
-    "util": "^0.10.3"
-  },
-  "peerDependencies": {
+    "util": "^0.10.3",
     "voxa": "^2.1.4"
-  }
+  },
+  "peerDependencies": {}
 }
