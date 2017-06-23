@@ -1,8 +1,8 @@
 Voxa Polly Renderer
 ====================
 
-[![Travis](https://img.shields.io/travis/mediarain/voxa-polly-renderer.svg)]()
-[![Coveralls](https://img.shields.io/coveralls/mediarain/voxa-polly-renderer.svg)]()
+[![Travis](https://img.shields.io/travis/mediarain/voxa-polly-renderer.svg)](https://travis-ci.org/mediarain/voxa-polly-renderer)
+[![Coveralls](https://img.shields.io/coveralls/mediarain/voxa-polly-renderer.svg)](https://coveralls.io/github/mediarain/voxa-polly-renderer)
 
 A custom renderer for Voxa that uses AWS Polly text to speech, this allows you to have skills with voices other than the alexa ones
 
